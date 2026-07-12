@@ -1,0 +1,151 @@
+/* Montserrat y Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto:wght@400;500&display=swap');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* 1rem = 16px */
+/* Estilos generales para el cuerpo de la página */
+
+
+/* Index QuieroFut */
+body {
+    background-color: #16191c;
+    font-family: 'Roboto', sans-serif;
+    color: #cbd5e1;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #00b4d8;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #94a3b8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #00b4d8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p{
+    color: #94a3b8;
+    font-size: 16px;
+}
+
+.parrafo-alternativo{
+    color: #38bdf8;
+    font-size: 14px;
+}
+
+/*estilos Nav */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e232a;
+    padding: 16px 32px;
+}
+
+header strong{
+    font-family: 'Montserrat', sans-serif;
+    color: #00b4d8;
+    font-size: 22px;
+}
+
+.lista-navegacion{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.enlace-nav{
+    display: block;
+    color: #fffffffa;
+    text-decoration: none;
+    padding: 8px 4px;
+}
+
+.enlace-nav:hover{
+    color: #00b4d8;
+}
+
+/*layout contenido */
+main{
+    padding: 40px 32px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+section:last-child{
+    margin-bottom: 0;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    background-color: #1e232a;
+    border-radius: 8px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+}
+
+figure img{
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    align-self: flex-start;
+    border-radius: 6px;
+}
+
+/*Estilos Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e232a;
+    color: #fffffffa;
+    padding: 20px 32px;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+
+footer a{
+    color: #fffffffa;
+}
+
+
+
